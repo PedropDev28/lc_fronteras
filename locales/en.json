@@ -1,0 +1,9 @@
+{
+    "border_warning": "⚠️ Warning: You are approaching a forbidden border",
+    "border_crossed": "❌ You have crossed an illegal border",
+    "execution_message": "Border guards have captured you",
+    "border_system": "Border System",
+    "trespassing": "Border Trespassing",
+    "prepare_to_die": "Prepare to die!",
+    "last_warning": "⚠️ LAST WARNING: Turn back immediately"
+}

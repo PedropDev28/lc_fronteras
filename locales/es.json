@@ -1,0 +1,9 @@
+{
+    "border_warning": "⚠️ Advertencia: Te estás acercando a una frontera prohibida",
+    "border_crossed": "❌ Has cruzado una frontera ilegal",
+    "execution_message": "Los guardias fronterizos te han capturado",
+    "border_system": "Sistema de Fronteras",
+    "trespassing": "Traspaso de Frontera",
+    "prepare_to_die": "¡Prepárate para morir!",
+    "last_warning": "⚠️ ÚLTIMA ADVERTENCIA: Da la vuelta inmediatamente"
+}
