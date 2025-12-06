@@ -1,9 +1,17 @@
 {
-    "border_warning": "⚠️ Advertencia: Te estás acercando a una frontera prohibida",
-    "border_crossed": "❌ Has cruzado una frontera ilegal",
+    "border_warning": "Advertencia: Te estás acercando a una frontera prohibida",
+    "border_crossed": "Has cruzado una frontera ilegal",
     "execution_message": "Los guardias fronterizos te han capturado",
     "border_system": "Sistema de Fronteras",
     "trespassing": "Traspaso de Frontera",
     "prepare_to_die": "¡Prepárate para morir!",
-    "last_warning": "⚠️ ÚLTIMA ADVERTENCIA: Da la vuelta inmediatamente"
+    "last_warning": "ÚLTIMA ADVERTENCIA: Da la vuelta inmediatamente",
+    "rescue_command": "Rescatar jugador de zona de frontera (Admin)",
+    "rescued_by_admin": "Has sido rescatado por un administrador",
+    "border": "Frontera",
+    "border_1": "Frontera Ambarino 1",
+    "border_2": "Frontera Ambarino 2",
+    "border_3": "Frontera Ambarino 3",
+    "border_4": "Frontera Annesburg",
+    "border_5": "Frontera Austin"
 }

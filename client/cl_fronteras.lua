@@ -152,10 +152,6 @@ AddEventHandler('lc-fronteras:client:spawnExecutionSquad', function()
     while not HasModelLoaded(npcModel) do
         Wait(100)
         timeout = timeout + 1
-        if timeout > 50 then -- 5 segundos timeout
-            print('[LC-FRONTERAS] Error: No se pudo cargar el modelo ' .. Config.ExecutionZone.npcModel)
-            return
-        end
     end
 
     -- No necesitamos cargar el arma en RDR2, ya está disponible
@@ -314,7 +310,7 @@ AddEventHandler('lc-fronteras:client:rescue', function()
     SetEntityCoords(playerPed, -175.0, 627.0, 114.0, false, false, false, false)
     SetEntityHeading(playerPed, 90.0)
 
-    Config.Notify_Client(locale('border_system'), 'Has sido rescatado por un administrador', 'success', 5000)
+    Config.Notify_Client(locale('border_system'), locale('rescued_by_admin'), 'success', 5000)
 end)
 
 Citizen.CreateThread(function()
@@ -323,7 +319,7 @@ Citizen.CreateThread(function()
             local blip = Citizen.InvokeNative(0x554D9D53F696D002, 1664425300, point.x, point.y, point.z)
             SetBlipSprite(blip, GetHashKey('blip_ambient_companion'), true)
             SetBlipScale(blip, 0.2)
-            Citizen.InvokeNative(0x9CB1A1623062F402, blip, string.format('%s - Punto %d', border.name, pointIndex))
+            Citizen.InvokeNative(0x9CB1A1623062F402, blip, string.format('%s - %s', border.name, locale('border') .. ' ' .. pointIndex))
             table.insert(debugMarkers, blip)
         end
     end

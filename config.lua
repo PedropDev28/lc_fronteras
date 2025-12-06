@@ -2,7 +2,7 @@
 -- ║  Desarrollado por: Fulgencio Zorongo     ║
 -- ║  Compañía: La Colmena Group              ║
 -- ╚══════════════════════════════════════════╝
-
+lib.locale()
 Config = {}
 
 -- Modo Debug para visualizar fronteras
@@ -39,7 +39,7 @@ Config.ExecutionZone = {
 Config.Borders = {
     -- Ejemplo: Frontera Norte (New Hanover - Ambarino)
     {
-        name = "Frontera Ambarino 1",
+        name = locale('border_1'),
         points = {
             vector3(-2146.42, 1084.00, 213.67),
             vector3(-1481.42, 861.65, 163.64),
@@ -50,7 +50,7 @@ Config.Borders = {
 
     -- Ejemplo: Frontera Sur
     {
-        name = "Frontera Ambarino 2",
+        name = locale('border_2'),
         points = {
             vector3(-1005.81, 496.91, 62.35),
             vector3(-637.19, 903.82, 74.78),
@@ -62,7 +62,7 @@ Config.Borders = {
 
     -- Ejemplo: Frontera Este
     {
-        name = "Frontera Ambarino 3",
+        name = locale('border_3'),
         points = {
             vector3(581.94, 1842.69, 164.23),
             vector3(809.97, 1509.38, 205.11),
@@ -73,7 +73,7 @@ Config.Borders = {
 
     -- Ejemplo: Frontera Oeste
     {
-        name = "Frontera Annesburg",
+        name = locale('border_4'),
         points = {
             vector3(822.93, 1025.87, 119.48),
             vector3(1458.55, 882.56, 115.50),
@@ -87,7 +87,7 @@ Config.Borders = {
     },
 
     {
-        name = "Frontera Austin",
+        name = locale('border_5'),
         points = {
             vector3(-2336.91, -1991.31, 108.97),
             vector3(-1359.35, -2025.61, 42.62),
@@ -95,14 +95,3 @@ Config.Borders = {
         direction = "south",
     },
 }
-
--- Mensajes de notificación
-Config.Notify_Client = function(title, message, type, duration)
-    lib.notify({
-        title = title,
-        description = message,
-        type = type,
-        duration = duration,
-        position = 'top'
-    })
-end
