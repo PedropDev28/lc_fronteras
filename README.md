@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Dev-Fulgencio%20Zorongo-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/La%20Colmena-Group-yellow?style=for-the-badge">
+</p>
+
 # LC Fronteras - Sistema de Control de Fronteras
 
 ## Descripción
@@ -364,9 +369,7 @@ Edita los archivos en `locales/` para cambiar los mensajes:
 - **Compañía**: La Colmena Group
 - **Versión**: 1.0.0
 
-## Soporte
-Para soporte, reportar bugs o sugerencias, contacta a La Colmena Group.
-
----
-
-**⚠️ IMPORTANTE**: Este recurso es para uso de roleplay. Asegúrate de que todos los jugadores sean conscientes de las fronteras establecidas en tu servidor.
+<p align="center">
+  <img src="https://img.shields.io/badge/Dev-Fulgencio%20Zorongo-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/La%20Colmena-Group-yellow?style=for-the-badge">
+</p>
